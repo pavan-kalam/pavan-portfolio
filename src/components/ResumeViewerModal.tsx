@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { X, FileText } from 'lucide-react';
 
@@ -13,9 +13,12 @@ export default function ResumeViewerModal({
   isOpen,
   onClose
 }: ResumeViewerModalProps) {
+  const [cacheBust, setCacheBust] = useState(0);
+
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = 'hidden';
+      setCacheBust(Date.now());
     } else {
       document.body.style.overflow = '';
     }
@@ -24,8 +27,8 @@ export default function ResumeViewerModal({
     };
   }, [isOpen]);
 
-  const resumeUrl =
-    new URL(RESUME_PATH.replace(/^\//, './'), window.location.href).href;
+  const baseUrl = new URL(RESUME_PATH.replace(/^\//, './'), window.location.href).href;
+  const resumeUrl = cacheBust ? `${baseUrl}${baseUrl.includes('?') ? '&' : '?'}v=${cacheBust}` : baseUrl;
 
   if (!isOpen) return null;
 
