@@ -182,7 +182,7 @@ export default function ProjectsSection() {
               {/* Project Image */}
               <div className="relative h-48 overflow-hidden">
                 <img 
-                  src={project.image} 
+                  src={project.image.startsWith('http') ? project.image : `${import.meta.env.BASE_URL}${project.image.replace(/^\//, '')}`}
                   alt={project.title}
                   className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                   onError={(e) => {

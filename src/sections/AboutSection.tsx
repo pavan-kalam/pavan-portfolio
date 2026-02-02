@@ -45,7 +45,7 @@ export default function AboutSection() {
               {/* Glow effect */}
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] bg-purple-600/15 rounded-full blur-[80px]" />
               <img
-                src="/avatar-hero.png"
+                src={`${import.meta.env.BASE_URL}avatar-hero.png`}
                 alt="Pavan Kalam"
                 className="relative w-48 h-60 object-cover opacity-80"
               />

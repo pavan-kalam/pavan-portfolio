@@ -135,7 +135,7 @@ export default function HeroSection() {
             <div className="relative" style={{ perspective: '1000px' }}>
               <img
                 ref={avatarRef}
-                src="/avatar-hero.png"
+                src={`${import.meta.env.BASE_URL}avatar-hero.png`}
                 alt="Pavan Kalam"
                 className="w-64 h-80 md:w-80 md:h-96 object-cover avatar-glow"
                 style={{ transformStyle: 'preserve-3d' }}
