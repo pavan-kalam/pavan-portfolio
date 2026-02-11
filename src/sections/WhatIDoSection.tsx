@@ -13,14 +13,14 @@ interface ServiceItem {
 
 const services: ServiceItem[] = [
   {
-    title: 'MACHINE LEARNING',
-    description: 'Designing, training, and operationalizing ML models using AWS SageMaker. Building end-to-end pipelines for data preprocessing, training, evaluation, and deployment with Python, Scikit-learn, TensorFlow, and PyTorch.',
-    skills: ['Python', 'TensorFlow', 'PyTorch', 'Scikit-learn', 'AWS SageMaker', 'MLOps', 'Docker', 'Kubernetes']
+    title: 'DATA ENGINEERING',
+    description: 'Designing and building reliable data pipelines and warehouses. Working with batch and streaming data, ETL/ELT workflows, and modern data stacks to ensure clean, well-modeled datasets for analytics and machine learning.',
+    skills: ['Python', 'SQL', 'Airflow', 'dbt', 'Spark', 'Kafka', 'Data Warehousing', 'ETL / ELT']
   },
   {
-    title: 'DATA SCIENCE',
-    description: 'Performing exploratory data analysis and feature engineering on structured enterprise datasets. Building predictive models using advanced algorithms and creating insightful visualizations for data-driven decision making.',
-    skills: ['Pandas', 'NumPy', 'SQL', 'Power BI', 'Tableau', 'XGBoost', 'Statistical Analysis', 'Data Visualization']
+    title: 'ANALYTICS & ML ENABLEMENT',
+    description: 'Partnering with analysts and data scientists to productionize their work. Exposing curated data via views, APIs, and dashboards, and operationalizing models with monitoring, alerting, and performance-focused best practices.',
+    skills: ['Pandas', 'NumPy', 'Power BI', 'Tableau', 'Data Modeling', 'Metric Design', 'Monitoring', 'Documentation']
   }
 ];
 

@@ -13,28 +13,32 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    year: '2019 - 2021',
-    title: 'Data Analyst → ML Engineer',
-    company: 'Persistent Systems',
-    description: 'Started as Data Analyst analyzing structured datasets using SQL and Python. Transitioned to ML Engineer role, building predictive models with Scikit-learn and automating data preprocessing workflows, reducing manual effort by 30%.'
+    year: 'May 2025 - Present',
+    title: 'Data Engineer',
+    company: 'CVS Health, United States',
+    description:
+      'Lead end-to-end Azure data engineering work across claims, pharmacy, and member engagement domains. Build and operate Azure Data Factory pipelines, Event Hubs / Stream Analytics streaming flows, and Databricks (PySpark) feature datasets powering analytics, risk-scoring models, and GenAI / LLM initiatives at enterprise scale.'
   },
   {
-    year: '2021 - 2022',
-    title: 'Data Scientist',
-    company: 'Tata Consultancy Services (TCS)',
-    description: 'Performed exploratory data analysis and feature engineering on enterprise datasets. Built predictive models using XGBoost and Scikit-learn, integrated batch inference workflows with AWS Athena and Glue.'
+    year: 'Mar 2022 - Dec 2023',
+    title: 'Data Engineer',
+    company: 'Zensar Technologies, India',
+    description:
+      'Redesigned large-scale batch data pipelines on AWS using Glue, S3, PySpark, and Redshift to improve cost, performance, and reliability. Delivered incremental ingestion and CDC patterns, governed datasets for 18+ dashboards and ML consumers, and monitoring/alerting with CloudWatch to catch pipeline issues before they impacted downstream teams.'
   },
   {
-    year: '2022 - 2023',
-    title: 'Machine Learning Engineer',
-    company: 'Aircom Systems Pvt Ltd',
-    description: 'Designed and operationalized ML models using AWS SageMaker, improving forecasting accuracy by 18-22%. Built real-time RESTful APIs handling 5K+ daily requests. Automated model retraining workflows with Apache Airflow, reducing update cycles by 50%.'
+    year: 'Jan 2020 - Feb 2022',
+    title: 'Junior Data Engineer',
+    company: 'Zensar Technologies, India',
+    description:
+      'Built foundational ETL and ML-supporting ingestion flows with AWS Glue, Python, and S3 processing hundreds of thousands of records daily. Standardized schemas and features with PySpark, maintained Redshift tables and views for reporting and ML feature pipelines, and automated orchestrations with Lambda and Step Functions to reduce manual effort.'
   },
   {
-    year: '2024 - 2025',
+    year: 'Education',
     title: 'MS in Computer Science',
-    company: 'University of Missouri-Kansas City',
-    description: 'Pursuing Master\'s degree with focus on Machine Learning, AI, and Software Engineering. Enhancing theoretical foundations while working on advanced ML projects and research.'
+    company: 'University of Missouri - Kansas City, Missouri',
+    description:
+      'Masters of Science in Computer Science with a focus on data engineering, distributed systems, and cloud-native architectures.'
   }
 ];
 

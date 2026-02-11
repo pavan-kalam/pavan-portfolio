@@ -56,24 +56,24 @@ export default function AboutSection() {
           <div ref={contentRef}>
             <p className="text-sm font-mono text-purple-400 mb-4">ABOUT ME</p>
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 leading-tight">
-              Machine Learning Engineer with{' '}
+              Data Engineer with{' '}
               <span className="gradient-text">4+ years</span> of experience
             </h2>
             <div className="space-y-4 text-zinc-400 leading-relaxed">
               <p>
-                I specialize in designing, building, and deploying production-grade machine 
-                learning systems across enterprise environments. With a strong background in 
-                Python, SQL, and cloud-native ML platforms, I bring hands-on experience in 
-                AWS SageMaker, model training, inference APIs, and MLOps pipelines.
+                I specialize in designing, building, and maintaining modern data platforms that 
+                power analytics and machine learning. From ingesting raw data to serving curated 
+                datasets, I work across the stack using Python, SQL, and cloud-native services.
               </p>
               <p>
-                My expertise lies in translating complex business problems into scalable ML 
-                solutions, optimizing model performance, and ensuring reliability through 
-                monitoring, automation, and best practices in deployment.
+                Most of my work focuses on data pipelines, warehousing, and reliability: 
+                orchestrating ETL/ELT workflows, optimizing queries, and building resilient 
+                batch and streaming pipelines that teams can trust for decision making.
               </p>
               <p>
-                Driven by curiosity and a passion for innovation, I continuously explore 
-                emerging technologies in AI/ML to stay at the forefront of the field.
+                I care deeply about clean data models, observability, and documentation, and I 
+                enjoy collaborating with analysts, data scientists, and engineers to turn messy 
+                real-world data into well-structured, high-quality assets.
               </p>
             </div>
           </div>

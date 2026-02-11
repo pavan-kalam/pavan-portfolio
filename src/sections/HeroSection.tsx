@@ -145,7 +145,7 @@ export default function HeroSection() {
 
           {/* Right - Role */}
           <div ref={roleRef} className="text-center lg:text-right order-3">
-            <p className="text-sm font-mono text-zinc-500 mb-2">A Creative</p>
+            <p className="text-sm font-mono text-zinc-500 mb-2">A Creative Data Engineer</p>
             <div className="h-12 md:h-14 overflow-hidden">
               <div ref={roleContainerRef} className="relative">
                 {roles.map((role, index) => (
